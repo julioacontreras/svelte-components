@@ -1,0 +1,15 @@
+@use '../../style/spaces';
+
+nav.topBarMenu {
+    display: flex;
+    flex-direction: row;
+    padding: spaces.$space_default;
+    justify-content: end;
+    .end {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        justify-content: end;
+    }
+}
+

@@ -1,0 +1,13 @@
+@use '../../style/fonts';
+
+a.link {
+    color: var(--text-secondary);
+    padding: 0;
+    margin: 0;
+    font-size: fonts.$font_default;
+    text-decoration: none;
+    text-transform: none;
+    &:hover {
+        color: var(--text-primary);
+    }
+}
